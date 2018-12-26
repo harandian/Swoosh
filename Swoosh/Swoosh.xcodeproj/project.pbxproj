@@ -13,6 +13,7 @@
 		7C8268ED21D2EFE7000B6C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C8268EC21D2EFE7000B6C12 /* Assets.xcassets */; };
 		7C8268F021D2EFE7000B6C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8268EE21D2EFE7000B6C12 /* LaunchScreen.storyboard */; };
 		7C8268F921D2FF9C000B6C12 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8268F821D2FF9C000B6C12 /* BorderButton.swift */; };
+		7CA63B5A21D31D3A0026B364 /* ChooseGenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA63B5921D31D3A0026B364 /* ChooseGenderVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7C8268EF21D2EFE7000B6C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C8268F121D2EFE7000B6C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C8268F821D2FF9C000B6C12 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		7CA63B5921D31D3A0026B364 /* ChooseGenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseGenderVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7C8268F721D2FF7D000B6C12 /* Views */,
 				7C8268E521D2EFE3000B6C12 /* AppDelegate.swift */,
 				7C8268E721D2EFE3000B6C12 /* ViewController.swift */,
+				7CA63B5921D31D3A0026B364 /* ChooseGenderVC.swift */,
 				7C8268E921D2EFE3000B6C12 /* Main.storyboard */,
 				7C8268EC21D2EFE7000B6C12 /* Assets.xcassets */,
 				7C8268EE21D2EFE7000B6C12 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 			files = (
 				7C8268E821D2EFE3000B6C12 /* ViewController.swift in Sources */,
 				7C8268E621D2EFE3000B6C12 /* AppDelegate.swift in Sources */,
+				7CA63B5A21D31D3A0026B364 /* ChooseGenderVC.swift in Sources */,
 				7C8268F921D2FF9C000B6C12 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
