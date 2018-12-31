@@ -8,18 +8,27 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
 
+    
+    @IBOutlet weak var swooshLogo: UIImageView!
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("Test")
-        // Do any additional setup after loading the view, typically from a nib.
+  
     }
 
     @IBAction func unwindFromGenderVC (unwindSegue: UIStoryboardSegue) {
         
     }
+    
+    @IBAction func getSarted(_ sender: Any) {
+        
+        performSegue(withIdentifier: "getSrarted", sender: self)
+    }
+    
+    
 
 }
 
